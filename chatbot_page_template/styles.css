@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#chatbox {
+    width: 70%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+}
+
+#chat-output {
+    height: 500px;
+    overflow-y: auto;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+
+
+.bot-response {
+    background-color: rgb(244, 249, 247);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 1.8vw 1.8vw 0 1.5vw; /* Adjust border-radius for rounded corners */
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50%; /* Adjust max-width as per your design */
+    margin-right: 50%; /* Ensure space between chatbox edge and message */
+}
+
+/* .bot-label {
+    font-size: 1rem;
+    background-color: #007bff; 
+    color: white; 
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    margin-right: 10px;
+} */
+
+.user-message {
+    background-color: #dcf8c6; /* Adjust color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-top: 10px;
+    border-radius: 1.8vw 1.8vw 1.5vw 0; /* Adjust border-radius for rounded corners */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%; /* Adjust max-width as per your design */
+    margin-left: 50%; /* Ensure space between chatbox edge and message */
+}
+
+/* .user-label {
+    font-size: 1rem;
+    background-color: #28a745; 
+    color: white; 
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+    margin-left: 10px;
+} */
+
+
+
+#user-input {
+    width: calc(100% - 60px);
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#info {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#visa-info {
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa and Immigration Chatbot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Visa and Immigration Chatbot</h1>
+    </header>
+
+    <main>
+        <section id="chatbox" class="card">
+            <div id="chat-output" class="card-body"></div>
+            <div class="input-group p-3">
+                <input type="text" id="user-input" class="form-control" placeholder="Type your message here...">
+                <div class="input-group-append">
+                    <button onclick="sendMessage()" id="send-btn" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="info">
+            <h2>Visa Information</h2>
+            <button onclick="showVisaTypes()" class="btn btn-info">Show Visa Types</button>
+            <div id="visa-info"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
